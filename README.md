@@ -5,9 +5,9 @@ mvpart
 
 mvpart fits multivariate regression trees.
 
-This is a fork of [richardjtelford/mvpart]{github.com/richardjtelford/mvpart/} which itself was a fork of the last archived version of mvpart on [CRAN](https://cran.r-project.org/src/contrib/Archive/mvpart/).
+This is a fork of https://github.com/richardjtelford/mvpart which itself was a fork of the last archived version of mvpart on [CRAN](https://cran.r-project.org/src/contrib/Archive/mvpart/).
 
-I have edited the namespace so that it installs on R version 4.5.1.
+I have made edits to the C code and the header files so that it installs cleanly on R version 4.5.1.
 
 Installation
 ------------
