@@ -25,6 +25,7 @@
 
 #define ALLOC(a,b)  S_alloc(a,b)
 #define CALLOC(a,b) R_chk_calloc((size_t)(a), b)
+#define Free(p) (R_chk_free( (void *)(p) ), (p) = NULL)
 
 #ifndef FLOAT
 #define FLOAT double    /* see rpart.h */

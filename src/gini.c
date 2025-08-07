@@ -19,7 +19,7 @@ static int    *tsplit,
           *countn;
 static double *awt,
           *rate;
-static double (*impurity)();
+static double (*impurity)(double);
 
 static double gini_impure1(p) double p; {  return(1 - p*p); }
 
